@@ -3,7 +3,7 @@ Voici un système pour lancer et gérer vos reboot.
 
 
 Installation : 
-Copier coller ces 2 fichier dans votre Arma 3 serveur
+Copier coller ces 3 fichier dans votre Arma 3 serveur
 
 
 Modification :
@@ -11,11 +11,11 @@ Modification :
     Tout est dans le startserveur.bat
   
   Temps reboot : 
-    Dans le restart.bat : Il faut modifier le 2 timeout
+    il ce fait dans le sys_restart.bat
+    Il faut la première condition concerne et la 2 ème est pour les minutes
     
     
     
 A savoir : 
-  1) Il faut toujours laisser ouvert le cmd du restart.bat
-  2) Le système ne ce base pas sur des heures réelle donc lancer le au moment ou vous voulez reboot
-  Exemple : Vous mettez 6h et vous le lancer à 20h vos reboot seront 20h - 2h - 8h - 14h
+  1) Il faut toujours laisser ouvert le cmd du sys_restart.bat
+  Exemple : Les exemples de reboot sont 20h - 2h - 8h - 14h
