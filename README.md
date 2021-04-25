@@ -3,7 +3,7 @@ Voici un système pour lancer et gérer vos reboot.
 
 
 Installation : 
-Copier coller ces 3 fichier dans votre Arma 3 serveur
+Copier coller ces 3 fichiers dans votre Arma 3 serveur
 
 
 Modification :
