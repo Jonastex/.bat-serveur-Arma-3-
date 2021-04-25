@@ -9,15 +9,18 @@ IF not exist "startserver.bat" (
     timeout /t 30 /nobreak
     @exit
 )
+IF not exist "startserver.bat" (
+    echo il manque le sys_restart
+    timeout /t 30 /nobreak
+    @exit
+)
 
 if exist "startserver.bat" (
-    echo Le startserveur c' est lancer avec succes
-    echo Veuillez garder cette fenetre ouverte pour le fonctionnement du syseme
-    start "" "startserver.bat"
-    timeout /t 30 /nobreak
-    taskkill /f /t /im arma3server_x64.exe
-    start "" "restart.bat"
-    @exit
+    if exist "sys_restart.bat" (
+        echo Le systeme de reboot c est bien lancer
+        start "" "sys_restart.bat"
+        @exit
+    )
 )
 
 
